@@ -2,7 +2,7 @@ package javabasic;
 
 import java.util.Scanner;
 
-public class ConsoleIO {
+public class ConsoleIO {   
 
 	public static void main(String[] args) {
 
