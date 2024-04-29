@@ -57,36 +57,54 @@ public class LoofExer {
 //				
 //			}System.out.println();
 //		}	
-		//별찍기 6 (z)
-			int keynum = 8;
-			for(int i=0; i<keynum+1; i++) {
-				for(int j=0; j<keynum+1; j++) {
-					if(i%keynum==0 || i+j==keynum) {
-						System.out.print("*");
-					}else {System.out.print(" ");
-					}
-				}System.out.println();
-			}
-			
-			
-		//별찍기 7(H)
-			int key = 8;
-			for(int i=0; i<key+1; i++) {
-				for(int j =0; j<key+1; j++) {
-					if(j%key==0 || i==key/2) {
-						System.out.print("*");
-					}else {
-						System.out.print(" ");
-					}
-				}System.out.println();
-			}
+//		//별찍기 6 (z)
+//			int keynum = 8;
+//			for(int i=0; i<keynum+1; i++) {
+//				for(int j=0; j<keynum+1; j++) {
+//					if(i%keynum==0 || i+j==keynum) {
+//						System.out.print("*");
+//					}else {System.out.print(" ");
+//					}
+//				}System.out.println();
+//			}
+//			
+//			
+//		//별찍기 7(H)
+//			int key = 8;
+//			for(int i=0; i<key+1; i++) {
+//				for(int j =0; j<key+1; j++) {
+//					if(j%key==0 || i==key/2) {
+//						System.out.print("*");
+//					}else {
+//						System.out.print(" ");
+//					}
+//				}System.out.println();
+//			}
 		//별찍기 8 (다이아몬드)
-			int key2=10;
-			for(int i=0; )
-			for (int i=0; i<=key2*2; i+=2) {
-				
-			}
-			
-	}}
+	
+//		for(int i=1; i<=5; i++) {
+//			for (int j=1; j<=5-i; j++) {
+//			 System.out.print("  "); 
+//			for(int j=1; j<=i; j++) {
+//				System.out.print("* ");{
+//				for (int j=2; j<=i; j++) {
+//					System.out.print("* ");
+//			System.out.println();
+//			}
+		for (int i=1; i<=5; i++) {
+			for (int j=1; j<=5; j++)
+				System.out.print(" ");{
+					int j = 0;
+					if(j<=1) {
+						System.out.print("**");
+					}else {
+		                System.out.print("***");
+					}
+				}System.out.println();
+		}
+		
+		
+	 }
+	}
 
 
